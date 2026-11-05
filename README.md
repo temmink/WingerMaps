@@ -33,6 +33,7 @@ The source code is not included in this repository. This repository is for **sup
 
 - A Mac with macOS 14 Sonoma or later (Apple silicon or Intel)
 - Honda Gold Wing GL1800 with navigation, European version, navigation software 2.60 or later (tested with 2.90)
+- **Only for the older Gold Wing GL1800** with the factory navigation that reads a CF card — **not** for the new Gold Wing from 2018 onward
 - A CF card and card reader. Maps can be up to just under 4 GB per file (FAT32); tested: a 3.2 GB map on an 8 GB card
 - An internet connection to download OpenStreetMap data
 
@@ -70,18 +71,18 @@ WingerMaps is proprietary software © 2026 Martin Temmink. Map data © [OpenStre
 
 ## Nederlands
 
-WingerMaps is een Mac-app die van OpenStreetMap routeerbare kaarten maakt voor de navigatie van de Honda Gold Wing GL1800 en ze veilig op de CF-kaart zet, na eerst een backup van je originele kaart. Vereist macOS 14 of nieuwer en navigatiesoftware 2.60 of hoger (getest met 2.90).
+WingerMaps is een Mac-app die van OpenStreetMap routeerbare kaarten maakt voor de navigatie van de Honda Gold Wing GL1800 en ze veilig op de CF-kaart zet, na eerst een backup van je originele kaart. Vereist macOS 14 of nieuwer en navigatiesoftware 2.60 of hoger (getest met 2.90). Alleen voor de oudere GL1800 met navigatie op een CF-kaart, niet voor de nieuwe Gold Wing vanaf 2018.
 
 Problemen of wensen? [Meld ze hier](https://github.com/temmink/WingerMaps/issues/new/choose), in het Nederlands mag ook. Vragen over een aankoop: info@snelgraveren.nl. Meer informatie en veelgestelde vragen op de [website](https://www.snelgraveren.nl/Apps/wingermaps/?lang=nl).
 
 ## Deutsch
 
-WingerMaps ist eine Mac-App, die aus OpenStreetMap routingfähige Karten für das Navi der Honda Gold Wing GL1800 erstellt und sie sicher auf die CF-Karte kopiert – nachdem deine Originalkarte gesichert wurde. Erfordert macOS 14 oder neuer und Navi-Software 2.60 oder neuer (getestet mit 2.90).
+WingerMaps ist eine Mac-App, die aus OpenStreetMap routingfähige Karten für das Navi der Honda Gold Wing GL1800 erstellt und sie sicher auf die CF-Karte kopiert – nachdem deine Originalkarte gesichert wurde. Erfordert macOS 14 oder neuer und Navi-Software 2.60 oder neuer (getestet mit 2.90). Nur für die ältere GL1800 mit Navi auf CF-Karte, nicht für die neue Gold Wing ab 2018.
 
 Probleme oder Wünsche? [Hier melden](https://github.com/temmink/WingerMaps/issues/new/choose), gern auch auf Deutsch. Fragen zum Kauf: info@snelgraveren.nl. Mehr Infos und häufige Fragen auf der [Website](https://www.snelgraveren.nl/Apps/wingermaps/?lang=de).
 
 ## Français
 
-WingerMaps est une app Mac qui crée, à partir d’OpenStreetMap, des cartes routables pour la navigation de la Honda Gold Wing GL1800 et les copie en toute sécurité sur la carte CF, après avoir sauvegardé votre carte d’origine. Nécessite macOS 14 ou ultérieur et le logiciel de navigation 2.60 ou ultérieur (testé avec la 2.90).
+WingerMaps est une app Mac qui crée, à partir d’OpenStreetMap, des cartes routables pour la navigation de la Honda Gold Wing GL1800 et les copie en toute sécurité sur la carte CF, après avoir sauvegardé votre carte d’origine. Nécessite macOS 14 ou ultérieur et le logiciel de navigation 2.60 ou ultérieur (testé avec la 2.90). Uniquement pour l’ancienne GL1800 avec navigation sur carte CF, pas pour la nouvelle Gold Wing à partir de 2018.
 
 Un problème ou une suggestion ? [Signalez-le ici](https://github.com/temmink/WingerMaps/issues/new/choose), en français si vous le souhaitez. Questions d’achat : info@snelgraveren.nl. Plus d’informations et FAQ sur le [site web](https://www.snelgraveren.nl/Apps/wingermaps/?lang=fr).
