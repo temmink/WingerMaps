@@ -1,0 +1,86 @@
+name: Bug Report
+description: Something isn't working as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! You may write in English, Dutch, German or French.
+
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Before you file
+      options:
+        - label: I'm running the latest version of WingerMaps
+          required: true
+        - label: I've checked the [existing issues](https://github.com/temmink/WingerMaps/issues) and this hasn't been reported before
+          required: true
+
+  - type: dropdown
+    id: macos_version
+    attributes:
+      label: macOS Version
+      options:
+        - macOS 26 (Tahoe)
+        - macOS 15 (Sequoia)
+        - macOS 14 (Sonoma)
+        - Other (please describe below)
+    validations:
+      required: true
+
+  - type: input
+    id: nav_version
+    attributes:
+      label: Navigation software version
+      description: Shown by WingerMaps on the card screen (from the update file), or in the navigation's system info.
+      placeholder: "e.g. 2.90"
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part is affected?
+      options:
+        - Choosing countries / drawing an area
+        - Downloading map data
+        - Building the map
+        - Writing the map to the CF card / backups
+        - The map on the motorcycle (display)
+        - Routing or address search on the motorcycle
+        - In-app purchase / full version
+        - Settings
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: What did you expect, and what actually happened? Include any error message.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Select Netherlands + Belgium
+        2. Click Make Map
+        3. …
+    validations:
+      required: true
+
+  - type: textarea
+    id: map
+    attributes:
+      label: Map details
+      description: Which countries or area, and the map content settings (shown on the map in the library). For problems on the motorcycle, also the map size and CF card size.
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Anything else?
+      description: Screenshots, photos of the navigation screen, or anything else that might help.

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support & FAQ
+    url: https://github.com/temmink/WingerMaps#troubleshooting
+    about: Check the Troubleshooting section for common fixes before filing an issue.
+  - name: Website
+    url: https://www.snelgraveren.nl/Apps/wingermaps/
+    about: Features, requirements and frequently asked questions (NL/EN/DE/FR).
+  - name: Purchase questions
+    url: https://www.snelgraveren.nl/contact/
+    about: For questions about the in-app purchase, use the contact form or email info@snelgraveren.nl.

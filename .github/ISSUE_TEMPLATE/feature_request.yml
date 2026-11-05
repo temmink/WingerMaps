@@ -1,0 +1,28 @@
+name: Feature Request
+description: Suggest an idea or improvement for WingerMaps
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea? We'd love to hear it. You may write in English, Dutch, German or French.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to do?
+      description: Describe what you're trying to achieve, or what's missing today.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: How would you like it to work?
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Anything else?
+      description: Other navigation devices, examples, screenshots…
